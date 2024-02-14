@@ -12,13 +12,10 @@ public class TestController {
         return "First message from AWS Ecs";
     }
 
-    @GetMapping("/message")
-    public String getMessage() {
-        return "Second message from AWS Ecs";
-    }
-
     @GetMapping("/mahi")
     public String getMessage() {
-        return "deployed again";
+        return "running as expected";
     }
+
+    
 }
